@@ -1,0 +1,1 @@
+main = interact $ unlines . filter ((< 15) . length) . lines
